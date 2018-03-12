@@ -56,9 +56,8 @@ h1, h2, h3, h4, h5 {
     color: #607d8b;
     line-height: 1.5;
 }
-
-h2 {
-    margin-top: 48px;
+.main h2 {
+    margin-top: 36px;
 }
 
 .main > div:nth-child(1) > h2 {
@@ -83,9 +82,9 @@ h2 {
     line-height: 1.5;
 }
 
-.stack-list li {
+/* .stack-list li {
     margin-bottom: 12px;
-}
+} */
 
 .right-list li {
     margin-bottom: 12px;
@@ -93,6 +92,9 @@ h2 {
 
 
 hr {
+    height: 8px;
+    border-left: none;
+    border-right: none;
     margin-bottom: 8px;
 }
 
