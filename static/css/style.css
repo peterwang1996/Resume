@@ -115,7 +115,6 @@ hr {
     font-size: 20px;
     padding: 6px;
     color: #666;
-    
 }
 
 .remodal-img button {
@@ -196,9 +195,11 @@ progress::-moz-progress-value {
     width: 90px;
 }
 
-.skill .left-label {
+/* .skill .left-label {
     width: 100%;
-}
+    margin-top: 8px;
+    font-weight: bold;
+} */
 
 .portrait {
     margin: 0 auto;
@@ -289,8 +290,8 @@ ul li{
     
 }
 
- .experience-list .project-link {
-    display: block;
+ .experience-list .project-link, .experience-list .project {
+    /* display: block; */
     font-size: 12px;
     color: #607d8b;
     margin-bottom: 8px;
